@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+<!--  
+  <include file="struts-1.xml"></include>
+  <include file="struts-2.xml"></include>
+  <include file="struts-3.xml"></include>
+  -->
+    <include file="configurationXML/struts-4.xml"></include>
+  <!-- 指定默认编码集 -->
+  <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+  <constant name="struts.action.extension" value="do,action"></constant>
+  <constant name="struts.serve.static.browserCache" value="false"></constant>
+  <constant name="struts.configuration.xml.reload" value="true"></constant>
+  <constant name="struts.devMode" value="true"></constant>
+  <constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+ 
+</struts>
